@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 /**
  * @author wanshuo
  * @date 2021-05-03 20:57:47
@@ -13,5 +15,6 @@ public class Test {
         // 三元运算符
         Object object = (1 == 2? "hello" : "world");
         System.out.println(object);
+
     }
 }
