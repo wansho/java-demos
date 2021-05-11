@@ -1,6 +1,8 @@
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * @author wanshuo
@@ -14,5 +16,11 @@ public class StreamTest {
         for (String string : strings) {
             System.out.println(string);
         }
+        list = list.stream().map(x -> x + "-").collect(Collectors.toList());
+        System.out.println(list);
+
+        List<Integer> list1 = Arrays.asList(1,2,3);
+        System.out.println(list1.stream().max(Comparator.comparing(x -> x)).get());
+
     }
 }

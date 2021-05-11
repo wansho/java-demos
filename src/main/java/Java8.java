@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.Optional;
 import java.util.stream.Stream;
 
 /**
@@ -21,9 +22,7 @@ public class Java8 {
                 .max()
                 .ifPresent(System.out::println);
 
-
-
-
+        Optional<String> stringOptional = Optional.of("hehe");
 
     }
 

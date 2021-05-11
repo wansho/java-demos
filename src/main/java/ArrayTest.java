@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.List;
 
 /**
  * @author wanshuo
@@ -13,6 +14,13 @@ public class ArrayTest {
         for (String string : strings) {
             System.out.println(string);
         }
+
+        List<String> list = Arrays.asList(strings);
+        System.out.println(list);
+
+        int[] ints = new int[]{1,2,3};
+        List<int[]> list1 = Arrays.asList(ints);
+
     }
 
 }
