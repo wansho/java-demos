@@ -1,0 +1,9 @@
+server=http://192.168.100.9:8081
+pubId=9491719C-C241-439B-9083-4ACF3E2CCB41
+pubName=告警推送
+password=a03c9854-34f4-46
+companyId=6E7C22BB-D0DF-446D-8EA6-E66ECC910FDA
+companyName=金现代信息产业股份有限公司
+efsServer=http://192.168.100.9:9200
+efsAccount=84C941DE-7F02-4CE6-8F5C-DA93E6E898F7
+efsPassword=4c70b64a3e6bae7430a03e6528c395d4

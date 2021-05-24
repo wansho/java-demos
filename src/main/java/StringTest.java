@@ -1,4 +1,5 @@
 import java.text.MessageFormat;
+import java.util.Arrays;
 
 /**
  * @author wanshuo
@@ -12,5 +13,7 @@ public class StringTest {
 
         String string2 = "1-%s-2";
         System.out.println(String.format(string2, "3"));
+
+        String[] strings = new String[]{"1", "2"};
     }
 }
