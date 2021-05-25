@@ -28,4 +28,8 @@ public class IOTest {
         printWriter.flush();
         printWriter.close();
     }
+
+    public static void fileTest() throws IOException{
+
+    }
 }
