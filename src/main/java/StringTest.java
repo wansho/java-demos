@@ -15,5 +15,11 @@ public class StringTest {
         System.out.println(String.format(string2, "3"));
 
         String[] strings = new String[]{"1", "2"};
+
+
+        String path = "/optkt/集控操作票内容";
+        String[] paths = path.split("/");
+        String[] subPaths = Arrays.copyOfRange(paths, 1, paths.length - 1);
+        Arrays.stream(subPaths).forEach(p -> System.out.println(p));
     }
 }
