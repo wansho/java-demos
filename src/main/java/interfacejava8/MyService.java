@@ -6,8 +6,4 @@ package interfacejava8;
  */
 public class MyService implements BaseService{
 
-    public void execute(){
-        test();
-    }
-
 }

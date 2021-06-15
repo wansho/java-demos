@@ -6,6 +6,8 @@ package interfacejava8;
  */
 public interface BaseService {
 
+    public String strDemo = "test";
+
     public default void test(){
         System.out.println("test");
     }
