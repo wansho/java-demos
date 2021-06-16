@@ -11,9 +11,9 @@ public class Calculator {
 
     /***
      * <T extends Number> 是用来约束传参的类型，与返回值无关
+     * @param <T>
      * @param a
      * @param b
-     * @param <T>
      * @return
      */
     public static <T extends Number> double add(T a, T b){
