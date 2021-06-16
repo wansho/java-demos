@@ -4,6 +4,10 @@ import java.util.Iterator;
 import java.util.Random;
 
 /**
+ * Generator<Coffee>, Iterable<Coffee> 都是泛型接口
+ * 参数化的 Generator 接口确保了 next() 方法返回的是参数的类型
+ * 实现 Iterable 接口保证了 CoffeeGenerator 可以遍历
+ *
  * @author wanshuo
  * @date 2021-06-16 19:04:05
  */
