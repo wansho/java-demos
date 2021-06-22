@@ -20,4 +20,13 @@ class Java8NewFeaturesTest {
         });
     }
 
+    @Test
+    void testReduce(){
+        List<Boolean> booleanList = new ArrayList<>();
+        booleanList.add(true);
+        booleanList.add(false);
+        Boolean reduce = booleanList.stream().reduce(true, (acc, element) -> acc && element);
+        System.out.println(reduce);
+    }
+
 }

@@ -8,6 +8,8 @@ import thinkinjava.chapter15generic.Latte;
 
 import java.util.Arrays;
 import java.util.Iterator;
+import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * @author wanshuo
@@ -22,5 +24,11 @@ public class IterableTest {
         for(; iterator.hasNext(); ){
             System.out.println(iterator.next());
         }
+    }
+
+    @Test
+    void testJoining(){
+        List<String> stringList = Arrays.asList("a", "b", "c");
+        System.out.println(stringList.stream().collect(Collectors.joining(", ")));
     }
 }
