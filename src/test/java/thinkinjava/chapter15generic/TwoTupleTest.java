@@ -1,8 +1,7 @@
-package generic;
+package thinkinjava.chapter15generic;
 
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
+import thinkinjava.chapter15generic.TwoTuple;
 
 class TwoTupleTest {
     @Test

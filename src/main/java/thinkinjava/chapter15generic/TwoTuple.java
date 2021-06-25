@@ -1,4 +1,4 @@
-package generic;
+package thinkinjava.chapter15generic;
 
 /**
  * 指定多个泛型，泛型可以是任意字母
