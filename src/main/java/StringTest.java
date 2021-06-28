@@ -21,5 +21,8 @@ public class StringTest {
         String[] paths = path.split("/");
         String[] subPaths = Arrays.copyOfRange(paths, 1, paths.length - 1);
         Arrays.stream(subPaths).forEach(p -> System.out.println(p));
+
+        StringBuilder sb = new StringBuilder();
+        System.out.println(sb.toString().length());
     }
 }
