@@ -1,5 +1,7 @@
 package thinkinjava.chapter15generic;
 
+import java.util.HashMap;
+
 /**
  * 泛型数组
  * @author wanshuo
@@ -14,6 +16,11 @@ public class ArrayOfGeneric {
         System.out.println(gia.getClass().getSimpleName());
         gia[0] = new Generic<Integer>();
         System.out.println(gia.length);
+
+        HashMap<String, String> stringStringHashMap = new HashMap<>();
+        String test = stringStringHashMap.get("test");
+        System.out.println(test.isEmpty());
+
     }
 }
 

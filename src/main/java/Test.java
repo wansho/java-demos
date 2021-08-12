@@ -1,7 +1,5 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
+import java.util.function.Function;
 import java.util.stream.Collectors;
 
 /**
@@ -40,5 +38,17 @@ public class Test {
         String[] strings = new String[]{"1", "2", "3"};
         System.out.println(String.join(",", strings));
         System.out.println(list1.toArray(new Integer[list1.size()]).toString());
+
+        System.out.println(Arrays.stream(new int[64]).mapToObj(num -> String.valueOf(num)).collect(Collectors.joining()));
+
+        // Java lang 类型 64 位，有一位是符号位
+        System.out.println(Long.toBinaryString(Long.MAX_VALUE));
+
+        List<List<Integer>> lists = Arrays.asList(Arrays.asList(1, 2), Arrays.asList(3, 4));
+
+        Set mySet = new HashSet();
+
+
+
     }
 }
